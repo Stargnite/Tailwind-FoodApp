@@ -1,0 +1,21 @@
+{
+  "name": "ninjafood-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch",
+    "build-css": "tailwindcss build ./src/styles.css -o public/styles.css",
+    "watch": "npm run build-css -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29"
+  }
+}
